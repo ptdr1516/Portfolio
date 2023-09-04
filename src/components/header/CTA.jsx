@@ -1,5 +1,5 @@
 import React from 'react'
-import CV from '../../assets/cv1.pdf'
+import CV from '../../assets/cv2.pdf'
 import Button from 'react-bootstrap/Button'
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
