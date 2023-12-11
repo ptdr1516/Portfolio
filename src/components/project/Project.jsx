@@ -1,8 +1,5 @@
 import React from "react";
 import "./project.css";
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
 import IMG1 from '../../assets/codeial.jpg'
 import IMG2 from '../../assets/mealapp.png'
 import IMG3 from '../../assets/ERS.png'
@@ -56,16 +53,6 @@ const data = [
 ];
 
 const Portfolio = () => {
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 100,
-    slidesToShow: 3,
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 1000,
-  };
-
   return (
     <section id="portfolio">
       <h5>My Recent Work</h5>
