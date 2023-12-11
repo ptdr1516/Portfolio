@@ -59,7 +59,6 @@ const Portfolio = () => {
       <h2>Projects</h2>
 
       <div className="portfolio__carousel">
-        <Slider {...settings}>
           {data.map(({ id, image, title, github, demo }) => {
             return (
               <div key={id} className="portfolio__item">
@@ -83,7 +82,6 @@ const Portfolio = () => {
               </div>
             );
           })}
-        </Slider>
       </div>
     </section>
   );
