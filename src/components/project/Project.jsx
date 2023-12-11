@@ -57,13 +57,13 @@ const data = [
 
 const Portfolio = () => {
   const settings = {
-    dots: false,
+    dots: true,
     infinite: true,
-    speed: 1000,
+    speed: 100,
     slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 1000,
   };
 
   return (
