@@ -30,7 +30,7 @@ const About = () => {
             <article className='about__card'>
               <FaAward className='about__icon'/>
               <h5>Experience</h5>
-              <small>1+ Years Working</small>
+              <small>3+ Years Working</small>
             </article>
 
             <article className='about__card'>
@@ -42,14 +42,13 @@ const About = () => {
             <article className='about__card'>
               <VscFolderLibrary className='about__icon'/>
               <h5>Projects</h5>
-              <small>15+ Completed</small>
+              <small>20+ Completed</small>
             </article>
           </div>
 
           <p>
-          👋 Hi, I'm Purvesh Patidar ,Full Stack Developer with a passion for creating innovative software solutions. I have a proven track record of evaluating requirements and designing out-of-the-box solutions for software development projects. As an out-of-the-box thinker and problem solver, I am dedicated to improving performance and consistently delivering high-quality results.
+          👋 Hi, I'm Purvesh Patidar ,an enthusiastic Full Stack Developer with over 3 years of experience in designing, developing, and maintaining robust web applications using the MERN stack and other modern technologies. My passion for coding and problem-solving drives me to create innovative and efficient solutions that enhance user experience and business performance.
 🎓I completed my B.Tech in Computer Science Engineering from SRM University Chennai(2017-2021).
-🔧 I contributed to the development of the BRM application layer using C, SQL database, and Linux server. I collaborated effectively with the web development team and other departments, creating React.js and Node.js web app, and ensured the creation of clean, validation-ready code for project needs.
           </p>
 
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
